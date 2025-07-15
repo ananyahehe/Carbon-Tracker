@@ -321,7 +321,7 @@ export default function EnhancedCalculator({ onFootprintChange }: EnhancedCalcul
           <div className="text-center space-y-8">
             <div className="flex items-center justify-center space-x-4 mb-6">
               <div className="relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-3xl blur-lg opacity-60 animate-pulse-glow-dark" />
+                <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-3xl blur-lg opacity-60 animate-pulse-glow-dark transform scale-110" />
                 <div className="relative flex items-center justify-center w-16 h-16 bg-gradient-to-br from-emerald-500 via-emerald-400 to-teal-500 rounded-3xl shadow-2xl">
                   <Sparkles className="w-8 h-8 text-white animate-glow-pulse" />
                 </div>

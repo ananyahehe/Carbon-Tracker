@@ -127,15 +127,15 @@ function App() {
 
 
   return (
-    <div className="min-h-screen bg-gray-50 overflow-x-hidden">
+    <div className="h-screen bg-gray-50 overflow-hidden flex flex-col">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
       
-      <main className="py-8 px-4 sm:px-6 lg:px-8 max-h-[calc(100vh-6rem)] overflow-y-auto">
+      <main className="flex-1 py-8 px-4 sm:px-6 lg:px-8 overflow-y-auto">
         {renderActiveTab()}
       </main>
 
       {/* Enhanced Privacy Notice */}
-      <footer className="bg-white border-t border-gray-200 py-6">
+      <footer className="bg-white border-t border-gray-200 py-6 flex-shrink-0">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between">
             <div className="text-sm text-gray-600">

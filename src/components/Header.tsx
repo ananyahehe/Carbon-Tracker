@@ -60,7 +60,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
           </div>
           
           {/* Premium Navigation with Enhanced Effects */}
-          <nav className="flex items-center space-x-3 overflow-x-auto scrollbar-hide max-h-16">
+          <nav className="flex items-center space-x-3 overflow-x-auto overflow-y-hidden scrollbar-hide max-h-16">
             {tabs.map(({ id, label, icon: Icon, gradient }, index) => (
               <button
                 key={id}
